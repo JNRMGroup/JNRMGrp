@@ -18,19 +18,19 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // Scroll up Button
-// const backToTop = document.getElementById("backToTop");
+const backToTop = document.getElementById("backToTop");
 
-// window.addEventListener("scroll", function () {
-//     if (window.scrollY > 200) {
-//         backToTop.style.display = "block"; // Ipakita ang button
-//     } else {
-//         backToTop.style.display = "none"; // Itago kapag nasa itaas pa
-//     }
-// });
+window.addEventListener("scroll", function () {
+    if (window.scrollY > 200) {
+        backToTop.style.display = "block"; // Ipakita ang button
+    } else {
+        backToTop.style.display = "none"; // Itago kapag nasa itaas pa
+    }
+});
 
-// backToTop.addEventListener("click", function () {
-//     window.scrollTo({ top: 0, behavior: "smooth" });
-// });
+backToTop.addEventListener("click", function () {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+});
 
 // Effects
 AOS.init();
