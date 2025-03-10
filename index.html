@@ -22,22 +22,25 @@
                 <span class="fw-bold">JNRM GROUP</span>
             </a>
 
-           <!-- Icons and Toggler (for small screens) -->
-<div class="d-flex align-items-center">
-    <div class="icon-buttons d-flex d-lg-none align-items-center">
-        <a href="login/index.html" class="me-2"><i class="fas fa-user"></i></a>
-        <i class="fas fa-search me-2" id="search-icon" style="cursor: pointer;"></i>
-        <div id="search-box" class="d-none position-absolute">
-            <input type="text" class="form-control" id="search-input" placeholder="Search...">
-            <button class="btn position-absolute end-0 top-50 translate-middle-y">
-                <i class="fas fa-search"></i>
-            </button>
-        </div>
-    </div>
-    <button class="navbar-toggler border-0 ms-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-</div>
+            <!-- Icons and Toggler (for small screens) -->
+            <div class="d-flex align-items-center">
+                <div class="icon-buttons d-flex d-lg-none align-items-center">
+                    <a href="login/index.html" class="me-3"><i class="fas fa-user"></i></a>
+                    <div class="search-container position-relative">
+                        <i class="fas fa-search me-3" id="search-icon" style="cursor: pointer;"></i>
+                        <div id="search-box" class="d-none position-absolute">
+                            <input type="text" class="form-control" id="search-input" placeholder="Search...">
+                            <button class="btn position-absolute end-0 top-50 translate-middle-y">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <button class="navbar-toggler border-0 ms-2" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
 
             <!-- Navbar Items -->
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
@@ -84,8 +87,8 @@
     </nav>
 
     <!-- Hero Section (Home) -->
-    <section id="home">
-        <div id="carouselExampleSlidesOnly" class="carousel slide py-5" data-bs-ride="carousel">
+    <section id="home" class="py-5">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="assets/img/1st.jpg" class="d-block w-100" alt="..." />
@@ -108,7 +111,7 @@
 
 
     <!-- About Us -->
-    <section id="about" class="bg-light">
+    <section id="about" class="py-5 bg-light">
         <div class="container">
             <div class="row align-items-center">
                 <!-- Video Section -->
@@ -145,7 +148,7 @@
     </section>
 
     <!-- Our Group -->
-    <section id="group">
+    <section id="group" class="py-5">
         <div class="container text-center">
             <h2 class="fw-bold text-md-start" data-aos="fade-right" data-aos-delay="200">
                 Our Companies
@@ -306,7 +309,7 @@
     </section>
 
     <!-- Catalogues -->
-    <section id="catalogues" class="bg-light">
+    <section id="catalogues" class="py-5 bg-light">
         <div class="container">
             <div class="row align-items-center">
                 <!-- Left Column: Title & Description -->
@@ -378,7 +381,7 @@
     </section>
 
     <!-- Our Products -->
-    <section id="products">
+    <section id="products" class="py-5">
         <div class="container">
             <div class="row align-items-center">
                 <!-- Carousel Section -->
@@ -489,7 +492,7 @@
     </section>
 
     <!-- Food Solution -->
-    <section id="food" class="bg-light">
+    <section id="food" class="py-5 bg-light">
         <div class="container">
             <div class="row align-items-center">
                 <!-- Column for Text -->
@@ -644,7 +647,7 @@
     </section>
 
     <!-- Contact Us Section -->
-    <section id="contact">
+    <section id="contact" class="py-5">
         <div class="container">
             <div class="text-center mb-5">
                 <h2 class="fw-bold" data-aos="fade-down">Contact Us</h2>
@@ -715,7 +718,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="footer text-white">
+    <footer class="footer text-white py-4">
         <div class="container">
             <div class="row">
                 <!-- About Section -->
