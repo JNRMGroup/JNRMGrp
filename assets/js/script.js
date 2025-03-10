@@ -32,8 +32,8 @@ document.addEventListener("DOMContentLoaded", function () {
 //     window.scrollTo({ top: 0, behavior: "smooth" });
 // });
 
-// // Effects
-// AOS.init();
+// Effects
+AOS.init();
 
 // Catalogue circles
 const videoIds = [
